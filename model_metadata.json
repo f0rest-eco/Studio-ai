@@ -1,0 +1,10 @@
+{
+  "vocab_size": 800,
+  "block_size": 96,
+  "d_model": 96,
+  "n_heads": 4,
+  "n_layers": 2,
+  "parameter_count": 386688,
+  "pretrained": false,
+  "best_validation_loss": 5.706494935353597
+}

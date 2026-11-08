@@ -1,0 +1,6 @@
+# Install this only on a machine with enough RAM/disk for the chosen Gemma checkpoint.
+# For CPU-only servers, install a PyTorch CPU build separately if your platform requires it.
+transformers>=4.50.0
+accelerate>=1.6.0
+torch>=2.6.0
+safetensors>=0.5.3

@@ -1,0 +1,13 @@
+{
+  "vocab_size": 16000,
+  "block_size": 64,
+  "n_layer": 2,
+  "n_head": 2,
+  "d_model": 64,
+  "ffn_hidden": 128,
+  "dropout": 0.0,
+  "rope_base": 10000.0,
+  "eos_id": 1,
+  "trained_steps": 30,
+  "val_loss": 9.10335890452067
+}
