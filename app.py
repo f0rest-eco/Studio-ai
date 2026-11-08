@@ -17,7 +17,7 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
 BASE = Path(__file__).resolve().parent
-MODEL_DIR = Path(os.getenv("ORBIS_MODEL_DIR", BASE / "model"))
+MODEL_DIR = Path(os.getenv("ORBIS_MODEL_DIR", BASE ))
 WEIGHTS_PATH = Path(os.getenv("ORBIS_WEIGHTS", MODEL_DIR / "orbis_step6_weights.npz"))
 TOKENIZER_PATH = Path(os.getenv("ORBIS_TOKENIZER", MODEL_DIR / "tokenizer.json"))
 
